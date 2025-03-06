@@ -7,7 +7,7 @@ All admissible subsets generated from AdmissibleSubsetGenerator are stored in SU
 The admissible subsets for symplectic (m x m) matrices in which n > 12 have not been recorded due to long run times (n= 12 took over an 1hr30min to generate).
 
 Authors: Cody Goldschmidt, Jackson Johnson, Joseph Nwachkwu, Brandon Enlund
-Mentor: Dr. Zhenheng Li
+ -- Mentor: Dr. Zhenheng Li
 
 University of South Carolina Aiken -- 
 College of Sciences & Engineering -- 
