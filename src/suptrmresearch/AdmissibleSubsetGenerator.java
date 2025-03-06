@@ -32,9 +32,6 @@
  * {1, 2, 3, 4}
  */
 
-
-
-
 package suptrmresearch;
 
 import java.io.BufferedWriter;
@@ -55,6 +52,7 @@ public class AdmissibleSubsetGenerator {
         int choice = input.nextInt();
         switch (choice) {
             case 1:
+                // displays admissible subsets for n
                 List<List<Integer>> display1 = generate(n);
                 System.out.println("\nNumber of Admissible Subsets: " + display1.size());
                 System.out.println("Admissible Subsets:");
@@ -101,7 +99,7 @@ public class AdmissibleSubsetGenerator {
             generateSubsetsRecursive(elements, new ArrayList<>(), admissibleSubsets, 0, size);
         }
 
-        // remove function
+        // remove all subsets in which i and f(i) are in the same subset
         for (int i = 1; i <= n; i++) {
             int image = 2 * n - i + 1;
             Iterator<List<Integer>> iterator = admissibleSubsets.iterator();
