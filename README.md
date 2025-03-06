@@ -6,7 +6,7 @@ SymplecticMatrixGenerator is in progress.
 All admissible subsets generated from AdmissibleSubsetGenerator are stored in SUPTRMResearch/admissibleSubsets.
 The admissible subsets for symplectic (m x m) matrices in which n > 12 have not been recorded due to long run times (n= 12 took over an 1hr30min to generate).
 
-Authors: Cody Goldschmidt, Jackson Johnson, Joseph Nwachkwu, Brandon Enlund
+Authors: Cody Goldschmidt, Jackson Johnson, Joseph Nwachukwu, Brandon Enlund
  -- Mentor: Dr. Zhenheng Li
 
 University of South Carolina Aiken -- 

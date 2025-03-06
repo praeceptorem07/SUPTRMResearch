@@ -1,6 +1,6 @@
 /* Last modified : 22:56 EST -- CMG
  * 
- * Authors: Cody Goldschmidt, Jackson Johnson, Joseph Nwachkwu, Brandon Enlund 
+ * Authors: Cody Goldschmidt, Jackson Johnson, Joseph Nwachukwu, Brandon Enlund 
  * Mentor: Dr. Zhenheng Li
  * 
  * GitHub -- https://github.com/praeceptorem07/SUPTRMResearch.git
