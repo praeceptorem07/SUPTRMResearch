@@ -9,6 +9,6 @@ The admissible subsets for symplectic (m x m) matrices in which n > 12 have not 
 Authors: Cody Goldschmidt, Jackson Johnson, Joseph Nwachkwu, Brandon Enlund
 Mentor: Dr. Zhenheng Li
 
-University of South Carolina Aiken
-College of Sciences & Engineering
+University of South Carolina Aiken -- 
+College of Sciences & Engineering -- 
 Department of Computer Science, Engineering, & Mathematics
