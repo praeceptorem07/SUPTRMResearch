@@ -1,3 +1,40 @@
+/* Last modified : 22:40:55 EST -- CMG
+ * 
+ * Authors: Cody Goldschmidt, Jackson Johnson, Joseph Nwachkwu, Brandon Enlund 
+ * Mentor: Dr. Zhenheng Li
+ * 
+ * GitHub -- https://github.com/praeceptorem07/SUPTRMResearch.git
+ * 
+ * University of South Carolina Aiken
+ * College of Sciences & Engineering
+ * Department of Computer Science, Engineering, & Mathematics
+ * 
+ * Purpose: to generate all admissible subsets for a symplectic (m x m) matrix in which m = 2 * n
+ *  
+ * Sample Run:
+ * Please make a selection:
+ * (1) Display to Terminal
+ * (2) Display to Terminal and Save to File
+ * 
+ * Your Selection: 1
+ * 
+ * Number of Admissible Subsets: 10
+ * Admissible Subsets:
+ * {}
+ * {1}
+ * {2}
+ * {3}
+ * {4}
+ * {1, 2}
+ * {1, 3}
+ * {2, 4}
+ * {3, 4}
+ * {1, 2, 3, 4}
+ */
+
+
+
+
 package suptrmresearch;
 
 import java.io.BufferedWriter;
@@ -16,28 +53,33 @@ public class AdmissibleSubsetGenerator {
         // user can choose to save the admissible subsets to a file or just print to terminal
         System.out.print("\nPlease make a selection:\n(1) Display to Terminal\n(2) Display to Terminal and Save to File\n\nYour Selection: ");
         int choice = input.nextInt();
-        if (choice == 1) {
-            List<List<Integer>> display = generate(n);
-            System.out.println("\nNumber of Admissible Subsets: " + display.size());
-            System.out.println("Admissible Subsets:");
-            printSubsets(display);
-        }
-        if (choice == 2) {
-            // displays admissible subsets for n
-            List<List<Integer>> display = generate(n);
-            System.out.println("\nNumber of Admissible Subsets: " + display.size());
-            System.out.println("Admissible Subsets:");
-            printSubsets(display);
+        switch (choice) {
+            case 1:
+                List<List<Integer>> display1 = generate(n);
+                System.out.println("\nNumber of Admissible Subsets: " + display1.size());
+                System.out.println("Admissible Subsets:");
+                printSubsets(display1);
+                break;
 
-            // store subsets to a file
-            try {
-                storeSubsetsToFile(display,"n=" + n + "subsets.txt", n);
+            case 2:
+                // displays admissible subsets for n
+                List<List<Integer>> display2 = generate(n);
+                System.out.println("\nNumber of Admissible Subsets: " + display2.size());
+                System.out.println("Admissible Subsets:");
+                printSubsets(display2);
+
+                // store subsets to a file
+                try {
+                    storeSubsetsToFile(display2,"n=" + n + "subsets.txt", n);
                 } catch (IOException e) {
-                    e.printStackTrace();
+                        e.printStackTrace();
                 }
-        } 
-        else System.out.println("Invalid Option -- Program Terminated");
+            break;
 
+            default: 
+                System.out.println("Invalid Option -- Program Terminated");
+        } 
+        
         input.close();
     }
 

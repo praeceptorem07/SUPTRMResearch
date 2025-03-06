@@ -16,7 +16,7 @@ public class SymplecticMatrixGenerator {
         List<List<Integer>> range = domain;
 
         // print the number of admissible subsets and admissible subsets to verify
-        System.out.println("Number of admissible Subsets: " + domain.size());
+        System.out.println("\nNumber of admissible Subsets: " + domain.size());
         System.out.println("Admissible Subsets: ");
         AdmissibleSubsetGenerator.printSubsets(domain);
 
