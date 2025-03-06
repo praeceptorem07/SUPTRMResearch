@@ -1,4 +1,4 @@
-/* Last modified : 22:40:55 EST -- CMG
+/* Last modified : 22:54 EST -- CMG
  * 
  * Authors: Cody Goldschmidt, Jackson Johnson, Joseph Nwachkwu, Brandon Enlund 
  * Mentor: Dr. Zhenheng Li
@@ -12,6 +12,8 @@
  * Purpose: to generate all admissible subsets for a symplectic (m x m) matrix in which m = 2 * n
  *  
  * Sample Run:
+ * Input n: 2
+ * 
  * Please make a selection:
  * (1) Display to Terminal
  * (2) Display to Terminal and Save to File

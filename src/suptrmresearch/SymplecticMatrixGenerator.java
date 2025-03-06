@@ -1,3 +1,18 @@
+/* Last modified : 22:56 EST -- CMG
+ * 
+ * Authors: Cody Goldschmidt, Jackson Johnson, Joseph Nwachkwu, Brandon Enlund 
+ * Mentor: Dr. Zhenheng Li
+ * 
+ * GitHub -- https://github.com/praeceptorem07/SUPTRMResearch.git
+ * 
+ * University of South Carolina Aiken
+ * College of Sciences & Engineering
+ * Department of Computer Science, Engineering, & Mathematics
+ * 
+ * Purpose: to generate the domain and range for all symplectic (m * m) rook matrices in which m = 2 * n
+ *  
+ * Sample Run:
+ */
 package suptrmresearch;
 
 import java.util.*;
