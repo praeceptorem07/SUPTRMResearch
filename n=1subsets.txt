@@ -1,0 +1,7 @@
+n = 1
+Number of Admissible Subsets: 4
+Admissible Subsets:
+{}
+{1}
+{2}
+{1, 2}
