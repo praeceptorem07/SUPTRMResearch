@@ -1,3 +1,5 @@
+package suptrmresearch;
+
 import java.util.*;
 
 public class SymplecticMatrixGenerator {
